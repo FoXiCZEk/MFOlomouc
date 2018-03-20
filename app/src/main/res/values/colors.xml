@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="theme_light">#FFFFFF</color>
+    <color name="theme_dark">#575353</color>
+    <color name="zapas_editable">#BEEBAF</color>
+</resources>

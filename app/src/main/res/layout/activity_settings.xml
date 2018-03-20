@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cz.foxiczek.mfolomouc.SettingsActivity">
+
+    <TableLayout
+        android:id="@+id/table_settings"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+
+
+        <TableRow
+            android:id="@+id/tableRow_team"
+            android:layout_width="match_parent"
+            android:layout_height="37dp">
+
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView_team_popis"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="Oblíbený tým" />
+
+                <TextView
+                    android:id="@+id/textView_team_data"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp" />
+
+                <Button
+                    android:id="@+id/button_team_change"
+                    style="@style/Widget.AppCompat.Button.Small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+                    android:text="Button" />
+            </GridLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow_font"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView_font_popis"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="13dp"
+                    android:text="Velikost písma" />
+
+                <Button
+                    android:id="@+id/button_font_small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="A"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button_font_medium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="A"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button_font_large"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="A"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </GridLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow_theme"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="Styl" />
+
+                <ToggleButton
+                    android:id="@+id/toggleButton_theme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="200dp"
+                    android:text="ToggleButton"
+                    android:textOff="tmavý"
+                    android:textOn="světlý" />
+            </GridLayout>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow_stats"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView_stats_popis"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Zobrazovat statistiky" />
+
+                <ToggleButton
+                    android:id="@+id/toggleButton_stats"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="115dp"
+                    android:text="ToggleButton" />
+            </GridLayout>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow_facebook"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView_fb_login_popis"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Facebook login" />
+
+                <com.facebook.login.widget.LoginButton
+                    android:id="@+id/fb_login_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp" />
+            </GridLayout>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow_facebook_info"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/textView_fb_info_popis"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Přihlášen jako " />
+
+                <TextView
+                    android:id="@+id/textView_fb_info_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="150dp"
+                    android:text="USERNAME" />
+            </GridLayout>
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/button_about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:text="o aplikaci" />
+
+</RelativeLayout>

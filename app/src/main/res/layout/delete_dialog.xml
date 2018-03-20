@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView_delete_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button_uprav"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="71dp"
+        android:text="uprav"
+        android:layout_below="@+id/editText_uprav"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/button_odeber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/button_uprav"
+        android:text="odeber" />
+
+    <EditText
+        android:id="@+id/editText_uprav"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/button_uprav"
+        android:ems="10"
+        android:inputType="textCapWords|textPersonName"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/button_uprav_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/button_odeber"
+        android:layout_centerHorizontal="true"
+        android:text="uloz"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/textView_delete_num_popis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editText_uprav"
+        android:layout_marginTop="21dp"
+        android:text="číslo dresu"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/textView_delete_popis_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView_delete_num_popis"
+        android:layout_alignParentStart="true"
+        android:text="Jméno hráče"
+        android:visibility="invisible" />
+
+    <EditText
+        android:id="@+id/editText_uprav_dres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editText_uprav"
+        android:layout_below="@+id/editText_uprav"
+        android:ems="10"
+        android:inputType="number"
+        android:maxLength="2"
+        android:visibility="invisible" />
+</RelativeLayout>

@@ -1,0 +1,58 @@
+{
+  "project_info": {
+    "project_number": "529443413415",
+    "firebase_url": "https://mf-olomouc.firebaseio.com",
+    "project_id": "mf-olomouc",
+    "storage_bucket": "mf-olomouc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:529443413415:android:769858e3fdaca006",
+        "android_client_info": {
+          "package_name": "com.foxiczek.mfolomouc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "529443413415-m8er5mhvlqsr6olpdmbree38ou0hfl5v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.foxiczek.mfolomouc",
+            "certificate_hash": "0c0ed2b595a1694a358a2d213ca8aea9f2cd3b69"
+          }
+        },
+        {
+          "client_id": "529443413415-ahnf259d8fap7r2q8lr9mihnc2irt629.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.foxiczek.mfolomouc",
+            "certificate_hash": "ff4df4c3273a963fdd6af305ebc7db719030bdc0"
+          }
+        },
+        {
+          "client_id": "529443413415-hrqqpmkpapbm0iuvd31e8fke74d3hikl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQmUAYmwEB7UyBoVCmu7tyfuw8kCcszNE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

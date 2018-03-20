@@ -1,0 +1,236 @@
+<resources>
+    <string name="app_name">MF Olomouc</string>
+
+    <array name="ligy">
+        <item>1. liga</item>
+        <item>2. A</item>
+        <item>2. B</item>
+        <item>3. A</item>
+        <item>3. B</item>
+        <item>3. C</item>
+        <item>3. D</item>
+        <item>4. A</item>
+        <item>4. B</item>
+        <item>4. C</item>
+    </array>
+
+    <array name="obdobi">
+        <item>Jaro</item>
+        <item>Podzim</item>
+    </array>
+
+    <array name="typ">
+        <item>rozlosovani</item>
+        <item>vysledky</item>
+        <item>tabulky</item>
+    </array>
+
+    <array name="liga_1">
+        <item>AT Beermingham</item>
+        <item>FC Křídla</item>
+        <item>FC Chořelice</item>
+        <item>FC Levotil</item>
+        <item>FC Skunk</item>
+        <item>Galatasaray</item>
+        <item>Moravan Cholina</item>
+        <item>Pergola</item>
+        <item>Real HDO</item>
+        <item>RK Kafki Přerov</item>
+        <item>SK Mrsklesy</item>
+        <item>Sokol Mezice</item>
+        <item>Sokol Pohořany</item>
+        <item>Tonery Olomouc</item>
+    </array>
+
+    <array name="liga_2A">
+        <item>AUS Olomouc</item>
+        <item>Elektro Otáhal</item>
+        <item>FC Bubeník</item>
+        <item>FC Loučany</item>
+        <item>FC Rataje</item>
+        <item>Foxhunters</item>
+        <item>Galacticos</item>
+        <item>Kamerun</item>
+        <item>Kovo Dřevo</item>
+        <item>Lazce United</item>
+        <item>Olpran</item>
+        <item>Rychlá rota</item>
+        <item>Sokol Dubany</item>
+        <item>United Players</item>
+    </array>
+
+    <array name="liga_2B">
+        <item>Atl.Bystrovany</item>
+        <item>Celtic</item>
+        <item>FC Chelsea</item>
+        <item>FC Creditas</item>
+        <item>FC hroší stavby</item>
+        <item>Inter Šternberk</item>
+        <item>Mix junior</item>
+        <item>Modos Olomouc</item>
+        <item>Raptors team</item>
+        <item>Restoma</item>
+        <item>RoDo Legendy</item>
+        <item>Schwarzbach</item>
+        <item>SK Profit NV</item>
+        <item>SK Véska</item>
+    </array>
+
+    <array name="liga_3A">
+        <item>AC Karasov</item>
+        <item>Barbar</item>
+        <item>FC Nasa</item>
+        <item>FC Peklo NV</item>
+        <item>FK Břuchotín</item>
+        <item>Koník Litovel</item>
+        <item>KZT Štěpánov</item>
+        <item>MK Dl.Loučka</item>
+        <item>Sedlisko</item>
+        <item>SK Náklo</item>
+        <item>Sokolka Horka A</item>
+        <item>Sokolka Horka B</item>
+        <item>Sokol Unčovice</item>
+        <item>Sokol Žerotín</item>
+    </array>
+
+    <array name="liga_3B">
+        <item>Atletico Haná</item>
+        <item>Chalapeňos</item>
+        <item>Ditrex</item>
+        <item>Elektro Otáhal</item>
+        <item>FC Broky</item>
+        <item>FC Fiasco</item>
+        <item>FC ZRTV Loko</item>
+        <item>Jäger 1878</item>
+        <item>Meta Pohořany</item>
+        <item>MK Jívová</item>
+        <item>Roko Samotišky</item>
+        <item>Shake and Bake</item>
+        <item>SK Kopeček</item>
+        <item>Zelené balet</item>
+    </array>
+
+    <array name="liga_3C">
+        <item>Ajax Pivodam</item>
+        <item>Arsenal Loučany</item>
+        <item>Domino</item>
+        <item>FC Alcatraz</item>
+        <item>FC Holice</item>
+        <item>FC Luběnice</item>
+        <item>FC Podlas</item>
+        <item>Kaprodrom Klub</item>
+        <item>Pošta</item>
+        <item>Real stars</item>
+        <item>Rio de Blatec</item>
+        <item>Sigma Lutín</item>
+        <item>SK Holice</item>
+        <item>Tichej koutek</item>
+    </array>
+
+    <array name="liga_3D">
+        <item>Bílá puma</item>
+        <item>Buff-belt</item>
+        <item>Dorespo Lošov</item>
+        <item>Draci</item>
+        <item>Dyn.Bystrovany</item>
+        <item>FC Bastila</item>
+        <item>Geoboys</item>
+        <item>Hurikán VB</item>
+        <item>Mlha team</item>
+        <item>Nano Trade</item>
+        <item>P.balet 99</item>
+        <item>Rotor LBT</item>
+        <item>Sportbar Sigma</item>
+        <item>Topmon.Bukovany</item>
+    </array>
+
+    <array name="liga_4A">
+        <item>A1</item>
+        <item>Buldog Unčovice</item>
+        <item>Bulldog Pňovice</item>
+        <item>Dřeváci Pňovice</item>
+        <item>FC Skrbeň</item>
+        <item>FC Štok B.Lhota</item>
+        <item>FC Tigers</item>
+        <item>FK Rozvadovice</item>
+        <item>Karpat Uničov</item>
+        <item>KMK Březové</item>
+        <item>MK Chudobín</item>
+        <item>Sokol Křelov A</item>
+        <item>Sokol Křelov B</item>
+        <item>Základ.Hnoyland</item>
+    </array>
+
+    <array name="liga_4B">
+        <item>Académica</item>
+        <item>AC Jojo United</item>
+        <item>Bažanti</item>
+        <item>F1 U Slávka</item>
+        <item>FC Braník</item>
+        <item>FC Černovír</item>
+        <item>FC Lutín</item>
+        <item>Hajduk Olomouc</item>
+        <item>Hejčín.berani</item>
+        <item>SB Luběnice</item>
+        <item>SK Slatinky</item>
+        <item>Sokol Olšany</item>
+        <item>Sokol Slatinky</item>
+        <item>Zora club</item>
+    </array>
+
+    <array name="liga_4C">
+        <item>Arsenal FC</item>
+        <item>Blues rock</item>
+        <item>Erena</item>
+        <item>FC Hattrick</item>
+        <item>FC IJZ</item>
+        <item>FC Partyzán</item>
+        <item>FK Krčmaň</item>
+        <item>FK Véska</item>
+        <item>J.A.H.</item>
+        <item>Leaders</item>
+        <item>Odra</item>
+        <item>OSŽ Commando</item>
+        <item>Second Wave</item>
+        <item>WP rebels</item>
+    </array>
+    <string-array name="selection">
+        <item>tabulky</item>
+        <item>vysledky</item>
+        <item>rozlosovani</item>
+    </string-array>
+
+    <string-array name="kolo">
+        <item>1.kolo</item>
+        <item>2.kolo</item>
+        <item>3.kolo</item>
+        <item>4.kolo</item>
+        <item>5.kolo</item>
+        <item>6.kolo</item>
+        <item>7.kolo</item>
+        <item>8.kolo</item>
+        <item>9.kolo</item>
+        <item>10.kolo</item>
+        <item>11.kolo</item>
+        <item>12.kolo</item>
+        <item>13.kolo</item>
+    </string-array>
+
+
+    <string-array name="liga">
+        <item>1.liga</item>
+        <item>2.liga A</item>
+        <item>2.liga B</item>
+        <item>3.liga A</item>
+        <item>3.liga B</item>
+        <item>3.liga C</item>
+        <item>3.liga D</item>
+        <item>4.liga A</item>
+        <item>4.liga B</item>
+        <item>4.liga C</item>
+    </string-array>
+
+    <string name="facebook_app_id">117514835603738</string>
+    <string name="fb_login_protocol_scheme">fb117514835603738</string>
+
+</resources>
